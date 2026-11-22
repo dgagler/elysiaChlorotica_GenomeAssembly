@@ -1,0 +1,11 @@
+[M::mm_idx_gen::10.537*1.66] collected minimizers
+[M::mm_idx_gen::12.410*1.86] sorted minimizers
+[M::main::12.411*1.86] loaded/built the index for 9989 target sequence(s)
+[M::mm_mapopt_update::13.010*1.82] mid_occ = 99
+[M::mm_idx_stat] kmer size: 19; skip: 10; is_hpc: 1; #seq: 9989
+[M::mm_idx_stat::13.431*1.80] distinct minimizers: 41309124 (73.99% are singletons); average occurrences: 1.749; average spacing: 7.718; total length: 557480303
+[M::worker_pipeline::299.977*2.92] mapped 53588 sequences
+[M::worker_pipeline::604.841*2.97] mapped 53605 sequences
+[M::worker_pipeline::889.566*2.98] mapped 53841 sequences
+[M::worker_pipeline::1153.128*2.99] mapped 53661 sequences
+[M::worker_pipeline::1504.285*2.99] mapped 53846 sequences

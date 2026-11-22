@@ -1,0 +1,9 @@
+[M::mm_idx_gen::9.468*1.60] collected minimizers
+[M::mm_idx_gen::10.881*1.78] sorted minimizers
+[M::main::10.882*1.78] loaded/built the index for 9989 target sequence(s)
+[M::mm_mapopt_update::11.565*1.73] mid_occ = 65
+[M::mm_idx_stat] kmer size: 19; skip: 19; is_hpc: 0; #seq: 9989
+[M::mm_idx_stat::11.956*1.71] distinct minimizers: 45093380 (93.86% are singletons); average occurrences: 1.267; average spacing: 9.760; total length: 557480303
+[M::main] Version: 2.31-r1302
+[M::main] CMD: minimap2 -ax asm5 2019_referenceGenome/GCA_003991915.1/GCA_003991915.1_ElyChl2.0_genomic.fna results/hifiasm/Elysia_chlorotica.asm.bp.p_ctg.gfa
+[M::main] Real time: 14.530 sec; CPU: 22.069 sec; Peak RSS: 2.557 GB

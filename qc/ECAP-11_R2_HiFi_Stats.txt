@@ -1,0 +1,2 @@
+file                            format  type  num_seqs        sum_len  min_len  avg_len  max_len     Q1     Q2      Q3  sum_gap    N50  N50_num  Q20(%)  Q30(%)  AvgQual  GC(%)  sum_n
+raw_data/ECAP-11_R2_HiFi.fastq  FASTQ   DNA    422,611  3,832,264,008      277  9,068.1   29,417  7,623  8,673  10,118        0  9,089    8,255   99.02   97.79    28.64  37.32      0

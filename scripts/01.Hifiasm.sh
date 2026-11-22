@@ -19,4 +19,4 @@ name="Elysia_chlorotica"
 mkdir -p results
 
 # run hifiasm
-hifiasm -o results/${name}.asm -t ${SLURM_CPUS_PER_TASK} raw_data/ECAP-11.hifi_reads.bam
+hifiasm -o results/${name}.asm -t 16 raw_data/ECAP-11_R1_HiFi.fastq raw_data/ECAP-11_R2_HiFi.fastq
