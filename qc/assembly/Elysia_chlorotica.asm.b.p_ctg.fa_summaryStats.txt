@@ -1,0 +1,2 @@
+file                                               format  type  num_seqs        sum_len  min_len   avg_len    max_len      Q1      Q2      Q3  sum_gap      N50  N50_num  Q20(%)  Q30(%)  AvgQual  GC(%)  sum_n
+results/hifiasm/Elysia_chlorotica.asm.bp.p_ctg.fa  FASTA   DNA     14,373  1,017,826,813    6,729  70,815.2  2,866,037  25,667  45,731  86,632        0  105,058    2,664       0       0        0  37.29      0

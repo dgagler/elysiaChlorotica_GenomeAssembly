@@ -16,7 +16,7 @@ conda activate genome_assembly
 # set variables and create results dir
 cd "$SLURM_SUBMIT_DIR"
 name="Elysia_chlorotica"
-mkdir -p results
+mkdir -p results/hifiasm
 
 # run hifiasm
-hifiasm -o results/${name}.asm -t 16 raw_data/ECAP-11_R1_HiFi.fastq raw_data/ECAP-11_R2_HiFi.fastq
+hifiasm -o results/hifiasm/${name}.tuned.asm -t 16 -s 0.3 raw_data/ECAP-11_HiFi_merged.fastq.gz

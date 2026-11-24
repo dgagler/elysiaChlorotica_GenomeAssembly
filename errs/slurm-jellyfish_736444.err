@@ -1,0 +1,5 @@
+/var/spool/slurmd/job736444/slurm_script: line 22: 3024689 Broken pipe             zcat raw_data/ECAP-11_HiFi_merged.fastq.gz
+     3024690                       | awk 'NR%4==1{print ">"substr($0,2)} NR%4==2{print}'
+     3024691 Killed                  | jellyfish count -m 31 -s 3G -t ${SLURM_CPUS_PER_TASK} -C /dev/fd/0 -o results/${name}_31kmer.jf
+Failed to open input file 'results/ECAP-11_HiFi_merged_31kmer.jf'
+[2026-11-24T11:42:54.666] error: Detected 1 oom_kill event in StepId=736444.batch. Some of the step tasks have been OOM Killed.
