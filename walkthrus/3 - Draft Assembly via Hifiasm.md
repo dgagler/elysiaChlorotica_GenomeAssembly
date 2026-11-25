@@ -61,4 +61,9 @@ Let's stop to think about what all this means...our assembly is highly fragmenta
 hifiasm -o results/${name}.asm -t ${SLURM_CPUS_PER_TASK} -s 0.3 raw_data/ECAP-11_HiFi_merged.fastq.gz
 ```
 
-Looking at our log file, we can see via [M::purge_dups] that our inferred homozygous read coverage threshold is 41x. Our GenomeScope2 estimate is 48x (assuming we understand that the value of 24x reported is only half of the true value since it missed the heterozygous peak--other line of evidence for this is that our manual estimate of coverage estimated ~50x). As such, we focus on s which adjusts the threshold for purging duplicate haplotigs. The default is 0.55, and we'll try 0.3 here
+Looking at our log file, we can see via [M::purge_dups] that our inferred homozygous read coverage threshold is 41x. Our 
+GenomeScope2 estimate is 48x (assuming we understand that the value of 24x reported is only half of the true value since it missed the heterozygous peak--other line of evidence for this is that our manual estimate of coverage estimated ~50x). As such, we focus on s which adjusts the threshold for purging duplicate haplotigs. The default is 0.55, and we'll try 0.3 here
+
+This yields a new genome assembly, but it's not much better than before. The new stats:
+- 13612 contigs with an N50 of 108kb
+
